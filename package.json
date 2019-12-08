@@ -1,0 +1,25 @@
+{
+  "name": "cass-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^4.3.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "typescript": "^3.7.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "logger": "0.0.1",
+    "ts-node": "^8.5.4"
+  }
+}
